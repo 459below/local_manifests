@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="peyo" fetch="https://github.com/peyo-hd"/>
+  <remote name="459below" fetch="https://github.com/459below"/>
 
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="nougat" remote="peyo"/>
@@ -10,8 +11,8 @@
   <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" revision="nougat" remote="peyo"/>
 
   <project path="kernel/rpi" name="kernel_rpi" revision="nougat" remote="peyo"/>
-  <project path="hardware/rpi" name="hardware_rpi" revision="nougat" remote="peyo"/>
-  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="nougat" remote="peyo"/>
+  <project path="hardware/rpi" name="hardware_rpi" revision="npv" remote="peyo"/>
+  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="nougat" remote="459below"/>
 
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/htc/flounder-kernel" />
